@@ -1,0 +1,50 @@
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1380px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 32px;
+    color: #000000;
+}
+
+nav img{
+    margin-top: 5px;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 164px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+
+}
