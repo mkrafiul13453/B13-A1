@@ -47,6 +47,12 @@ nav ul a{
     color: white;
     border: none;
     font-weight:bold;
+    
+
+}
+
+.btn:hover{
+    cursor: pointer;
 
 }
 
@@ -78,6 +84,10 @@ nav ul a{
     color:#30B868 ;
 }
 
+.pill:hover{
+    cursor: pointer;
+}
+
 .hero-container p{
     padding-top: 5px;
     font-size: 18px;
@@ -102,9 +112,17 @@ nav ul a{
     color: white;
     border: none;
     font-weight:bold;
+  
     
    
 }
+
+
+.hero-btn .btn-a:hover{
+    cursor: pointer;
+}
+
+
 .hero-btn .btn-b{
     width: 250px;
     height: 40px;
@@ -118,6 +136,10 @@ nav ul a{
     
     font-weight:bold;
    
+}
+
+.hero-btn .btn-b:hover{
+    cursor: pointer;
 }
 
 .structure{
@@ -194,12 +216,13 @@ nav ul a{
 
 .clearly{
     text-align: center;
-    background-color: #f6f3e9;
+    background-color: #f7f5ee;
     border-radius: 20px;
 }
 
 .clearly .clearly-text{
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .clearly .clearly-text h3 {
@@ -232,5 +255,41 @@ nav ul a{
     color: white;
 }
 
+.foot{
+    background-color: var(--Style, rgba(0, 25, 49, 1));
+    margin-top: 100px;
+}
 
+.foot-container{
+    padding-top: 120px;
+}
 
+.foot-container .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    font-size: larger;
+    color: white;
+}
+
+.hr-foot{
+    padding-top: 100px;
+}
+
+.hr-foot h6{
+    font-size: 13px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.social i{
+    
+}
+
+#id{
+    text-decoration: none;
+    color: white;
+}
